@@ -7,7 +7,7 @@
 
 ## Description ##
 
-### A survey to assist readers in determining which programming languages they should learn first###
+### A survey to assist readers in determining which programming languages they should learn first ###
 
 
 ## Setup ##
