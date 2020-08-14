@@ -15,17 +15,46 @@
     <h6>By Kolman Soifer</h6>
   </div>
     <p>Choosing languages to begin your programming journey can be difficult.  Here is a tool to help you decide.  Good luck!</p>
+    <p>Some languages you may have heard of include:</p>
+      <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Hoon</li>
+        <li>Rust</li>
+        <li>C#</li>
+        <li>Go</li>
+      </ul>
+  <div>
+    <p>Regardless of which languages you choose to focus on, learning any of the above will help you on your journey.</p>
+  </div>
   
-  <form id="language">
-    <label for="goals">What are your industry-related goals?</label>
-    <input id="goals" type="radio">
-    <label for="currentField">What field are you currently employed in?</label>
-    <label for="proInterests">Professional Interests</label>
-    <input id="proInterests" type="radio">
-    <label for="perInterests">Personal Interests</label>
-    <input for="perIinterests" type="radio">
-    <label for="cpuPlatform">Choose your computer platform of choice</label>
 
+
+
+      </ul>
+
+  
+    <form id="language">
+      <div>
+        <label for="goals">Are your industry-related goals personal or professional?</label>
+        <select id="goals">
+          <option value="personal">Personal</option>
+          <option value="professional">Professional</option>
+        </select>
+      </div>
+      <div>
+        <label for="skills">Describe your current programming skill level</label>
+        <input id="skills" type="radio">
+      </div>
+      <div>
+        <label for="interests">What are some of your interests?</label>
+      <input for="interests" type="radio">
+      </div>
+      <div>
+        <label for="platforms">Choose your computer platform of choice</label>
+        <input for="platforms" type="radio">
+      </div>
+ 
 
     <button type="submit" class="btn">Show me my languages!</button>
 
