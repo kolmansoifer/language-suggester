@@ -1,3 +1,4 @@
 $(document).ready(function() {
-  $("form#calculator").submit(function() {
+  $("form#language").submit(function() {
     event.preventDefault();
+    const 
