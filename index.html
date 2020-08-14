@@ -29,9 +29,9 @@
     <p>Regardless of which languages you choose to focus on, learning any of the above will help you on your journey.  In the intereset of helping new entrants navigate this process, i've developed a simple five question survey that can help you determine which path to start down.</p>
   </div>
 
-  <div class="container">
-    <h3>Start the survey!</h3>
-      <form id="language">
+    <div class="container">
+      <h3>Start the survey!</h3>
+        <form id="language">
         
           <div>
             <label for="goals">Are your industry-related goals personal or professional?</label>
@@ -41,7 +41,17 @@
             </select>
           </div>
           
-          
+          <ul>
+            <div>
+              <label for="salary">If professional, enter your desired salary range:</label>
+              <select class="form-control" id="age">
+                <option>0 - $50k</option>
+                <option>$50k - $100k</option>
+                <option>$100k and above</option>
+              </select>
+            </div>
+          </ul>
+
           <div>
             <label for="radio">Describe your current programming skill level:</label>
             <ul>
@@ -71,7 +81,6 @@
               </div>
             </ul>
           </div>
-          
 
           <div>
             <label for="radio">What interests you most?</label>
@@ -108,36 +117,45 @@
               </div>
             </ul>
           </div>
-          
 
           <div>
-            <label for="radio">Choose your operating system of choice</label>
+            <label for="radio">Choose your operating system of choice:</label>
             <ul>
               <div class="radio">
                 <label>
                 <input type="radio" name=Date value=platforms>
+                iOS
                 </label>
-            <ul>
-              
-
-
-              
-
-
-          <div>
-            <label for="salary">Enter your desired salary range</label>
-            <select class="form-control" id="age">
-              <option>0 - $50k</option>
-              <option>$50k - $100k</option>
-              <option>$100k and above</option>
-            </select>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name=Date value=platforms>
+                Android
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name=Date value=platforms>
+                MacOS
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name=Date value=platforms>
+                Windows
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                <input type="radio" name=Date value=platforms>
+                Linux
+                </label>
+              </div>
+            </ul>
           </div>
-        
-        
-      
-  </div>
+      </div>
+
   
-      
       
         <button type="submit" class="btn">Show my languages!</button>
 

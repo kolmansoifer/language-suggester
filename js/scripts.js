@@ -5,4 +5,8 @@ $(document).ready(function() {
     const interests = $("input#interests").val();
     const platforms = $("input#platforms").val();
 
+    console.log(name);
+
+
+
     event.preventDefault();

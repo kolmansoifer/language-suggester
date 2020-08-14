@@ -3,3 +3,9 @@
   color: white;
   background-color: green;
 }
+
+.results {
+  display: none;
+}
+
+
